@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3a13adc5-7b21-4313-ae0e-90b78e0ecd25)
+
+  (paper "A5")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 30.48 69.85) (size 58.42 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 04064be0-6faa-4dac-8500-4389dec7a561)
+    (property "Sheetname" "ADC" (at 30.48 69.1384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "AKM_ADC.kicad_sch" (at 30.48 97.1046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ADC-DAC-AKM"
+        (path "/3a13adc5-7b21-4313-ae0e-90b78e0ecd25" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 30.48 25.4) (size 58.42 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7bb266d1-0543-4ab3-b96b-2e1b3520c4f0)
+    (property "Sheetname" "DAC" (at 30.48 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "AKM_DAC.kicad_sch" (at 30.48 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ADC-DAC-AKM"
+        (path "/3a13adc5-7b21-4313-ae0e-90b78e0ecd25" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
