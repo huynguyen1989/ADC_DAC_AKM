@@ -8,14 +8,14 @@
   )
 
 
-  (sheet (at 30.48 69.85) (size 58.42 26.67) (fields_autoplaced)
+  (sheet (at 123.19 48.26) (size 29.21 21.59) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 04064be0-6faa-4dac-8500-4389dec7a561)
-    (property "Sheetname" "ADC" (at 30.48 69.1384 0)
+    (property "Sheetname" "ADC" (at 123.19 47.5484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "AKM_ADC.kicad_sch" (at 30.48 97.1046 0)
+    (property "Sheetfile" "AKM_ADC.kicad_sch" (at 123.19 70.4346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -25,14 +25,31 @@
     )
   )
 
-  (sheet (at 30.48 25.4) (size 58.42 31.75) (fields_autoplaced)
+  (sheet (at 54.61 48.26) (size 29.21 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6679b37a-e23d-4691-b8ac-2352dfcbcb89)
+    (property "Sheetname" "Interfaces" (at 54.61 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "interfaces.kicad_sch" (at 54.61 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ADC-DAC-AKM"
+        (path "/3a13adc5-7b21-4313-ae0e-90b78e0ecd25" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 88.9 48.26) (size 29.21 21.59) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 7bb266d1-0543-4ab3-b96b-2e1b3520c4f0)
-    (property "Sheetname" "DAC" (at 30.48 24.6884 0)
+    (property "Sheetname" "DAC" (at 88.9 47.5484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "AKM_DAC.kicad_sch" (at 30.48 57.7346 0)
+    (property "Sheetfile" "AKM_DAC.kicad_sch" (at 88.9 70.4346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
